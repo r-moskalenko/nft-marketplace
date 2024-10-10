@@ -1,10 +1,10 @@
 package com.kpi.iasa.domain
 
 import com.kpi.iasa.domain.enums.PaymentType
-import javax.persistence.Column
-import javax.persistence.EnumType
-import javax.persistence.Enumerated
-import javax.persistence.MappedSuperclass
+import jakarta.persistence.Column
+import jakarta.persistence.EnumType
+import jakarta.persistence.Enumerated
+import jakarta.persistence.MappedSuperclass
 
 @MappedSuperclass
 open class PaymentMethods {

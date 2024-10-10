@@ -1,7 +1,7 @@
 package com.kpi.iasa.repository
 
-import com.kpi.iasa.domain.NFT
+import com.kpi.iasa.domain.Nft
 import org.springframework.data.repository.CrudRepository
 
-interface NFTRepository : CrudRepository<NFT, Long> {
+interface NftRepository : CrudRepository<Nft, Long> {
 }
